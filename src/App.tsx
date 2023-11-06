@@ -1,5 +1,12 @@
+import { MainPage } from './pages'
+import { Wrapper } from './components'
+
 function App() {
-  return <p>AAAA</p>
+  return (
+    <Wrapper>
+      <MainPage />
+    </Wrapper>
+  )
 }
 
 export default App
